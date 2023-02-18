@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+@media(min-width: 501px) and (max-width: 2000px){
+
+    
+
+
+#form-post{
+    background-color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 6rem;
+    padding: 4rem;
+    width: 40rem;  
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    color: #1a8d46;
+    font-size: 2rem;
+}
+
+.input-post{
+    width: 35rem;
+    height: 2rem;
+    border-radius: 7px; 
+}
+  
+textarea{
+    height: 15rem;
+    width: 35rem;
+    border-radius: 7px;  
+}
+
+}
+
+@media(max-width: 500px){
+
+.container1{    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+@media(min-width: 501px) and (max-width: 2000px){
+
+footer{
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1.3rem;
+    font-family: 'Libre Baskerville', serif; 
+    color: #655353;  
+}
+
+}
+
+@media(max-width: 500px){
+
+    
+/* footer */
+footer{
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-top: 3rem;
+    text-align: center;  
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Libre Baskerville', serif;
+    color: #655353;  
+}
+
+}

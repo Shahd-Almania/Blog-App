@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('./header.css');
+@import url("./add-blog.css");
+@import url('./footer.css');
+
+body{
+ background: url('https://media.giphy.com/media/d97OPMEimWGBi/giphy.gif');
+ margin: 0;
+}
+
+@media(min-width: 501px) and (max-width: 2000px){
+
+.container1{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+  padding: 50px 50px;
+  width: 100%;
+
+    display: grid;
+    grid-template-columns: 24rem 24rem;
+    /* grid-template-rows: 50% 50%; */
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    flex-flow: row wrap; 
+    font-family: 'Libre Baskerville', serif;      
+}
+
+h1{ 
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: 'Libre Baskerville', serif; 
+  padding-top: 5.5rem;
+  padding-bottom: 2rem; 
+  font-size: 3rem;  
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: #ffffff;
+  width: 19rem;
+  box-shadow: 0 3rem 5rem;
+  border-radius: 10px;
+  padding: 1rem; 
+}
+
+.btn{
+  height: 3rem;
+  width: 8rem;
+  border-radius: 7px;
+  border-color: #ffffff;
+  background-color: #1a8d46;
+  font-size: 1.2rem;
+  color: #000000; 
+}
+
+
+
+
+/* .btn-Previous{ 
+    margin-left: 1rem;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 7px;
+    border-color: #1a8d46;
+    background-color: #1a8d46;
+    font-size: 1.2rem;    
+} */
+
+  
+  /* blog bost */
+#form-blog{
+    background-color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    padding: 3rem;
+    width: 40rem;  
+} 
+
+section{
+  font-size: large;
+}
+}
+/* 
+---------------------------------------------------------------- */
+@media(max-width: 500px){
+
+.cards{
+ 
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-flow: row wrap; 
+    font-family: 'Libre Baskerville', serif; 
+         
+}
+
+h1{ 
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: 'Libre Baskerville', serif; 
+  padding-top: 2rem;
+  padding-bottom: 2rem; 
+  font-size: 2rem;  
+}
+
+.card{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; */
+  background-color: #ffffff;
+  width: 19rem;
+ 
+  border-radius: 10px;
+  padding: 1rem; 
+  
+}
+
+h2, p{ 
+    color: #000000;
+    font-family: 'Libre Baskerville', serif; 
+}
+
+
+p{
+  font-size: large;
+  font-family: 'Libre Baskerville', serif; 
+  padding-bottom: 1rem; 
+}
+
+.btn{ 
+  height: 3rem;
+  width: 35%;
+  border-radius: 7px;
+  border-color: #1a8d46;
+  background-color: #1a8d46;
+  font-size: 1.2rem; 
+  margin-bottom: 1rem; 
+  
+}
+
+
+
+/* =---------------------------- */
+
+article ,h5, ul{
+  padding-top: 1rem;
+  font-family: 'Libre Baskerville', serif; 
+  color: #ffffff;
+  padding-bottom: 1rem;  
+}
+
+/* #form-post{
+  background-color: #ffffff;
+  font-family: 'Libre Baskerville', serif;
+  margin-top: 6rem;
+  padding: 4rem;
+  width: 40rem;  
+} */
+
+#title{
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+h3{
+  color: #ffffff;
+}
+.input-post{
+width: 18rem;
+height: 2rem;
+border-radius: 7px; 
+}
+
+textarea{
+  height: 15rem;
+  width: 18rem;
+  border-radius: 7px;  
+}
+
+/* .addBlog{
+   margin-top: 1rem;
+    margin-bottom: 4rem;
+} */
+}
+

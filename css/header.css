@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+@media(min-width: 501px) and (max-width: 2000px){
+
+    /* navbar */
+  nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    padding: 14px; 
+  }
+  
+  .container-fluid{
+    display: flex;
+    align-items: center;
+  }
+  
+  a:link{
+    text-decoration:none;
+  }
+  
+  a:visited{
+    text-decoration:none;
+    color: #000;
+  }
+  
+  a:hover{
+    text-decoration:none;
+    color: #5daa7b;
+  }
+  
+  .home{
+    padding: 1rem;
+  }
+    
+}
+
+@media(max-width: 500px){
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    padding: 14px; 
+  }
+  .container-fluid{
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    align-items: center;
+  }
+  
+  a:link{
+    text-decoration:none;
+  }
+  
+  a:visited{
+    text-decoration:none;
+    color: #000;
+  }
+  
+  a:hover{
+    text-decoration:none;
+    color: #5daa7b;
+  }
+  
+  .home{
+    padding: 1rem;
+  }
+  
+}
